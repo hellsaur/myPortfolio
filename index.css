@@ -43,7 +43,7 @@ font-family: 'Lobster', cursive;
 
 }
 
-..clearfix {
+.clearfix {
     overflow: auto;
 }
 
