@@ -43,9 +43,14 @@ font-family: 'Lobster', cursive;
 
 }
 
+..clearfix {
+    overflow: auto;
+}
+
+
 span{
   font-size: 50px;
-  color:red;
+  color:rgb(204,0,51);
 }
 
 #button1{
@@ -55,10 +60,22 @@ margin-left: 1200px;
 }
 #button1:hover{
 
+  border-radius: 50%;
+  border:20px solid white;
+
+
 }
 
 #button2{
   position: absolute;
 margin-top: 400px;
 margin-left: 1200px;
+}
+
+#button2:hover{
+
+  border-radius: 100%;
+  border:20px solid white;
+
+
 }
